@@ -3,7 +3,7 @@
 
 install.packages("dplyr")
 library(dplyr)
-chicago<-readRDS("C:\\Users\\Puneeth\\Downloads\\chicago_data\\chicago.rds")
+chicago<-readRDS("chicago.rds")
 fix(chicago)
 dim(chicago)
 str(chicago)
